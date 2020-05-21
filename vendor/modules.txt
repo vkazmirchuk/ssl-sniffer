@@ -1,0 +1,17 @@
+# github.com/davecgh/go-spew v1.1.0
+github.com/davecgh/go-spew/spew
+# github.com/google/gopacket v1.1.17
+## explicit
+github.com/google/gopacket
+github.com/google/gopacket/layers
+github.com/google/gopacket/pcap
+# github.com/gorilla/websocket v1.4.2
+## explicit
+github.com/gorilla/websocket
+# github.com/pmezard/go-difflib v1.0.0
+github.com/pmezard/go-difflib/difflib
+# github.com/stretchr/testify v1.5.1
+## explicit
+github.com/stretchr/testify/assert
+# gopkg.in/yaml.v2 v2.2.2
+gopkg.in/yaml.v2
