@@ -6,13 +6,13 @@
 
 ## How to launch
 
-###Run tests
+### Run tests
 `go test`
 
-###Build
+### Build
 `GOOS=linux GOARCH=amd64 go build -o sniffer .`
 
-###Run
+### Run
 `./sniffer eth1` (`eth1` is an interface) for online sniff
 
 or 
@@ -24,9 +24,9 @@ Check: http://127.0.0.1:8080/
 ## How to launch in Docker
 Only file analysis will work in Docker
 
-###Pull image
+### Pull image
 `docker pull webdizi/ssl-sniffer`
 
-###Run
+### Run
 `docker run --rm -i -t -v $(pwd)/myDump.pcap:/build/packet_test.pcap webdizi/ssl-sniffer:latest` (`myDump.pcap` is your dump file)
 
